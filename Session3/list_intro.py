@@ -20,7 +20,7 @@ menu = ["Com", "chao", "Thit", "Rau", "Dau"]
 #     print(food)
 
 #loop by index, len là viết tắt của độ dài
-# for i in range(len(menu):)
+# for i in range(len(menu):
 #     print(i)
 
 #loop by value, index

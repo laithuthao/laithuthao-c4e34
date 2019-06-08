@@ -9,9 +9,12 @@ while True:
     if i in ["Yes", "yes", "Y", "y"]:
         flock[2]=8
         print("After shearing, here is my flock", flock)
-        print("One month has passed, now here is my flock", flock)
         break
     elif i in ["No", "no", "N", "n"]:
         break
     else:
         break
+        
+for i in range(0, len(flock)):
+            flock[i] += 50
+            print("One month has passed, now here is my flock", flock)
