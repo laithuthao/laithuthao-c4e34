@@ -11,4 +11,3 @@ inventory['backpack'].remove('dagger')
 inventory['gold']=[inventory['gold']+50]
 
 print(inventory)
-
