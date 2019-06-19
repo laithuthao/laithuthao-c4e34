@@ -43,7 +43,6 @@ for name in new_list:
         'format': 'bestaudio/audio'
     }
     
-
     dl = YoutubeDL(options)
     dl.download([name])
     
